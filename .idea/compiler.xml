@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="imall-canal" />
+        <module name="imall-common" />
+        <module name="imall-dw2es" />
+        <module name="imall-flume-interceptor" />
+        <module name="imall-logger" />
+        <module name="imall-mocker" />
+        <module name="imall-publisher" />
+        <module name="imall-realtime" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dw-publisher" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
